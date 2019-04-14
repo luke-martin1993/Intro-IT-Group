@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background-color: #1172B2;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+#content-container{
+    display: inline-flex; 
+}
+
+#title-container{
+    font-size: 1.5em;
+}
+
+.group-member{
+    background-color: #3DB6DB;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 1.3em;
+}
+
+#content-container a{
+    text-decoration: none;
+    color: white;
+}
